@@ -1,4 +1,4 @@
-package facebookSignupTest;
+package classTest;
 
 import org.testng.annotations.Test;
 
