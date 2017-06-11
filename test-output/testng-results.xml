@@ -1,65 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="82" started-at="2017-06-04T17:14:22Z" finished-at="2017-06-04T17:14:22Z">
+  <suite name="Default suite" duration-ms="97" started-at="2017-06-11T15:35:13Z" finished-at="2017-06-11T15:35:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="82" started-at="2017-06-04T17:14:22Z" finished-at="2017-06-04T17:14:22Z">
-      <class name="facebookSignupTest.annotationTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:facebookSignupTest.annotationTest@1d057a39]" name="beforeSuite" is-config="true" duration-ms="31" started-at="2017-06-04T12:14:22Z" finished-at="2017-06-04T12:14:22Z">
+    <test name="Default test" duration-ms="97" started-at="2017-06-11T15:35:13Z" finished-at="2017-06-11T15:35:13Z">
+      <class name="facebookSignupTest.fbSignupTEST">
+        <test-method status="PASS" signature="fbFooterlink()[pri:0, instance:facebookSignupTest.fbSignupTEST@39aeed2f]" name="fbFooterlink" duration-ms="26" started-at="2017-06-11T10:35:13Z" finished-at="2017-06-11T10:35:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:facebookSignupTest.annotationTest@1d057a39]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-06-04T12:14:22Z" finished-at="2017-06-04T12:14:22Z">
+        </test-method> <!-- fbFooterlink -->
+        <test-method status="PASS" signature="fbSignup()[pri:0, instance:facebookSignupTest.fbSignupTEST@39aeed2f]" name="fbSignup" duration-ms="3" started-at="2017-06-11T10:35:13Z" finished-at="2017-06-11T10:35:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:facebookSignupTest.annotationTest@1d057a39]" name="loginTest" duration-ms="12" started-at="2017-06-04T12:14:22Z" finished-at="2017-06-04T12:14:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:facebookSignupTest.annotationTest@1d057a39]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-04T12:14:22Z" finished-at="2017-06-04T12:14:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:facebookSignupTest.annotationTest@1d057a39]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-06-04T12:14:22Z" finished-at="2017-06-04T12:14:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:facebookSignupTest.annotationTest@1d057a39]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2017-06-04T12:14:22Z" finished-at="2017-06-04T12:14:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="changePassword()[pri:2, instance:facebookSignupTest.annotationTest@1d057a39]" name="changePassword" duration-ms="4" started-at="2017-06-04T12:14:22Z" depends-on-methods="facebookSignupTest.annotationTest.loginTest" finished-at="2017-06-04T12:14:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changePassword -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:facebookSignupTest.annotationTest@1d057a39]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-04T12:14:22Z" finished-at="2017-06-04T12:14:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="logOutTest()[pri:3, instance:facebookSignupTest.annotationTest@1d057a39]" name="logOutTest" duration-ms="3" started-at="2017-06-04T12:14:22Z" finished-at="2017-06-04T12:14:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOutTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:facebookSignupTest.annotationTest@1d057a39]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-04T12:14:22Z" finished-at="2017-06-04T12:14:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:facebookSignupTest.annotationTest@1d057a39]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-06-04T12:14:22Z" finished-at="2017-06-04T12:14:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:facebookSignupTest.annotationTest@1d057a39]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-06-04T12:14:22Z" finished-at="2017-06-04T12:14:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:facebookSignupTest.annotationTest@1d057a39]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-06-04T12:14:23Z" finished-at="2017-06-04T12:14:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- facebookSignupTest.annotationTest -->
+        </test-method> <!-- fbSignup -->
+      </class> <!-- facebookSignupTest.fbSignupTEST -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
